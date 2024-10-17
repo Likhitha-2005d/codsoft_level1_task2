@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+nav img {
+    width: 120px;
+    margin-left: 20px;
+}
+nav div {
+    margin-right: 20px;
+}
+nav a {
+    margin: 0 15px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+nav a:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+.intro {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.intro p {
+    font-size: 26px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+.button-contact {
+    position: absolute;
+    top: 490px;
+    left: 80px;
+}
+.button-contact button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #008b8b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-contact button:hover {
+    background-color: #96ded1;
+}
+img.profile {
+    width: 650px;
+    height: 380px;
+    position: absolute;
+    top: 150px;
+    left: 850px;
+}
+.languages {
+    position: absolute;
+    top: 600px;
+    left: 780px;
+}
+.languages h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.languages p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.icon-section {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.icon-section i {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #d4d1ce;
+}
+.css-icon {
+    color: #d4d1ce;
+}
+.react-icon {
+    color: #d4d1ce;
+}
+.node-icon {
+    color: #d4d1ce;
+}
+.sec-image {
+    position: absolute;
+    top: 550px;
+    left: 80px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+.proficiency {
+    position: absolute;
+    top: 1000px;
+    left: 80px;
+    font-size: 24px;
+}
+.third-image {
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+    width: 500px;
+    max-width: 600px;
+    border-radius: 5px;
+}
+.progress-bar {
+    margin-top: 20px;
+}
+.progress-Bar {
+    width: 400px;
+    background-color: #dcd0ff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 20px;
+    position: relative;
+}
+.progress {
+    background-color: #966fd6;
+    height: 100%;
+    border-radius: 20px;
+}
+.skill-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.cert {
+    position: absolute;
+    top: 1400px;
+    left: 80px;
+    font-size: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card a {
+    color: #008b8b;
+    text-decoration: none;
+}
+.card a:hover {
+    text-decoration: underline;
+}
+.podcast-section {
+    margin-top: 50px;
+    padding-left: 80px;
+    width: 600px;
+    font-family: Arial, sans-serif;
+}
+.reach-out {
+    position: relative;
+    top: 1750px;
+    left: 90px;
+}
+.s-icons {
+    position:relative;
+}
+.s-icons a {
+    margin-right: 20px;
+}
+.s-icons img {
+    width: 30px;
+    height: 30px;
+}
